@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "High-quality wireless headphones with noise-canceling technology and up to 30 hours of battery life. Perfect for both travel and office use, providing clear and immersive sound in all environments.",
+      "price": 89.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Smartwatch Pro",
+      "description": "Advanced smartwatch with health tracking, GPS, and customizable watch faces. Compatible with both iOS and Android devices. Stay connected and monitor your health all day long.",
+      "price": 199.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "4K Ultra HD TV",
+      "description": "Experience stunning picture quality with this 55-inch 4K Ultra HD television. Features include smart functionality, HDR support, and integrated streaming apps. Perfect for home entertainment enthusiasts.",
+      "price": 499.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Laptop",
+      "description": "Powerful gaming laptop with a high-refresh-rate display, dedicated graphics, and an ultra-fast processor. Optimized for performance in both gaming and professional applications.",
+      "price": 1299.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with superior sound quality and a durable, waterproof design. Ideal for outdoor adventures, parties, or casual use at home. Battery lasts up to 20 hours.",
+      "price": 49.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "name": "Fitness Tracker",
+      "description": "Stay on top of your fitness goals with this sleek and lightweight fitness tracker. It monitors your heart rate, sleep patterns, and activity levels while syncing seamlessly with your smartphone.",
+      "price": 59.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "name": "Noise Cancelling Earbuds",
+      "description": "Compact and wireless earbuds with active noise cancellation and crystal-clear sound. Features a comfortable fit and long battery life, making it perfect for commuters and travelers.",
+      "price": 79.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "name": "Smart Home Hub",
+      "description": "Control your smart home devices with this all-in-one hub. Compatible with most smart devices, it allows voice control, automation, and energy management right from your smartphone.",
+      "price": 149.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "name": "Wireless Charger",
+      "description": "Sleek and fast wireless charger compatible with most smartphones and wireless earbuds. Its compact design makes it perfect for any desk or bedside table. Charges through most phone cases.",
+      "price": 29.99,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "name": "Electric Scooter",
+      "description": "Eco-friendly electric scooter with a range of 25 miles on a single charge. Perfect for urban commuting or weekend rides, offering both speed and safety in a stylish design.",
+      "price": 399.99,
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  

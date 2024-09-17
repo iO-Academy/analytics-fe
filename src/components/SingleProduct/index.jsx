@@ -5,7 +5,7 @@ export default function SingleProduct({id, name, image, price}) {
         <div>
             <Link to={`/product/${id}`}>
                 <img src={image} />
-                <h3>{name}</h3>
+                <h3 className="text-2xl">{name}</h3>
                 <span>£{price}</span>
             </Link>
         </div>

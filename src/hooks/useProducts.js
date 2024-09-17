@@ -4,9 +4,16 @@ export default function useProducts() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('/products.json')
+        if (localStorage.getItem("products")) {
+            setData(JSON.parse(localStorage.getItem("products")))
+        } else {
+            fetch('/products.json')
             .then(res => res.json())
-            .then(products => setData(products))
+            .then(products => {
+                localStorage.setItem("products", JSON.stringify(products))
+                setData(products)
+            })
+        }
     }, [])
 
     return data

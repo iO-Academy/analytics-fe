@@ -10,10 +10,13 @@ function App() {
       <BrowserRouter>
         <Nav />
 
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="product/:id" element={<ProductPage />} />
-        </Routes>
+        <div className="container mx-auto">
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="product/:id" element={<ProductPage />} />
+          </Routes>
+        </div>
+        
       </BrowserRouter>
     </>
   )

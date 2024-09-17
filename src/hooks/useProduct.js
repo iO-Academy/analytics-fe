@@ -5,9 +5,20 @@ export default function useProduct(id) {
     const [notFound, setNotFound] = useState(false)
 
     useEffect(() => {
-        fetch('/products.json')
+        if (localStorage.getItem("products")) {
+            const products = JSON.parse(localStorage.getItem("products"))
+            const product = products.filter(product => product.id == id)
+                
+            if (product.length === 0) {
+                setNotFound(true)
+            } else {
+                setData(product[0])
+            }
+        } else {
+            fetch('/products.json')
             .then(res => res.json())
             .then(products => {
+                localStorage.setItem("products", JSON.stringify(products))
                 const product = products.filter(product => product.id == id)
                 
                 if (product.length === 0) {
@@ -16,7 +27,9 @@ export default function useProduct(id) {
                     setData(product[0])
                 }
             })
-    }, [])
+        }
+        
+    }, [id])
 
     return {data, notFound}
 }

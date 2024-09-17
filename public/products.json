@@ -1,73 +1,362 @@
 [
-    {
-      "id": 1,
-      "name": "Wireless Headphones",
-      "description": "High-quality wireless headphones with noise-canceling technology and up to 30 hours of battery life. Perfect for both travel and office use, providing clear and immersive sound in all environments.",
-      "price": 89.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 2,
-      "name": "Smartwatch Pro",
-      "description": "Advanced smartwatch with health tracking, GPS, and customizable watch faces. Compatible with both iOS and Android devices. Stay connected and monitor your health all day long.",
-      "price": 199.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 3,
-      "name": "4K Ultra HD TV",
-      "description": "Experience stunning picture quality with this 55-inch 4K Ultra HD television. Features include smart functionality, HDR support, and integrated streaming apps. Perfect for home entertainment enthusiasts.",
-      "price": 499.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 4,
-      "name": "Gaming Laptop",
-      "description": "Powerful gaming laptop with a high-refresh-rate display, dedicated graphics, and an ultra-fast processor. Optimized for performance in both gaming and professional applications.",
-      "price": 1299.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 5,
-      "name": "Bluetooth Speaker",
-      "description": "Portable Bluetooth speaker with superior sound quality and a durable, waterproof design. Ideal for outdoor adventures, parties, or casual use at home. Battery lasts up to 20 hours.",
-      "price": 49.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 6,
-      "name": "Fitness Tracker",
-      "description": "Stay on top of your fitness goals with this sleek and lightweight fitness tracker. It monitors your heart rate, sleep patterns, and activity levels while syncing seamlessly with your smartphone.",
-      "price": 59.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 7,
-      "name": "Noise Cancelling Earbuds",
-      "description": "Compact and wireless earbuds with active noise cancellation and crystal-clear sound. Features a comfortable fit and long battery life, making it perfect for commuters and travelers.",
-      "price": 79.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 8,
-      "name": "Smart Home Hub",
-      "description": "Control your smart home devices with this all-in-one hub. Compatible with most smart devices, it allows voice control, automation, and energy management right from your smartphone.",
-      "price": 149.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 9,
-      "name": "Wireless Charger",
-      "description": "Sleek and fast wireless charger compatible with most smartphones and wireless earbuds. Its compact design makes it perfect for any desk or bedside table. Charges through most phone cases.",
-      "price": 29.99,
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": 10,
-      "name": "Electric Scooter",
-      "description": "Eco-friendly electric scooter with a range of 25 miles on a single charge. Perfect for urban commuting or weekend rides, offering both speed and safety in a stylish design.",
-      "price": 399.99,
-      "image": "https://via.placeholder.com/150"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "High-quality wireless headphones with noise-canceling technology and up to 30 hours of battery life. Perfect for travel or office use, providing clear and immersive sound.",
+    "price": 89.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [2, 7, 9, 23]
+  },
+  {
+    "id": 2,
+    "name": "Smartwatch Pro",
+    "description": "Advanced smartwatch with health tracking, GPS, and customizable watch faces. Compatible with both iOS and Android devices. Monitor your health and stay connected.",
+    "price": 199.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 6, 8, 12]
+  },
+  {
+    "id": 3,
+    "name": "4K Ultra HD TV",
+    "description": "Experience stunning picture quality with this 55-inch 4K Ultra HD television. Features smart functionality, HDR support, and integrated streaming apps.",
+    "price": 499.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [14, 22, 38, 43]
+  },
+  {
+    "id": 4,
+    "name": "Gaming Laptop",
+    "description": "Powerful gaming laptop with a high-refresh-rate display, dedicated graphics, and ultra-fast processor. Optimized for gaming and professional applications.",
+    "price": 1299.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [7, 24, 25, 30]
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with superior sound quality and a durable, waterproof design. Perfect for outdoor adventures or parties. Battery lasts up to 20 hours.",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 7, 9, 31]
+  },
+  {
+    "id": 6,
+    "name": "Fitness Tracker",
+    "description": "Sleek fitness tracker that monitors your heart rate, sleep patterns, and activity levels. Syncs with your smartphone to help you reach your fitness goals.",
+    "price": 59.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [2, 8, 12, 18]
+  },
+  {
+    "id": 7,
+    "name": "Noise Cancelling Earbuds",
+    "description": "Wireless earbuds with active noise cancellation and crystal-clear sound. Comfortable fit and long battery life, perfect for commuters and travelers.",
+    "price": 79.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 4, 24, 29]
+  },
+  {
+    "id": 8,
+    "name": "Smart Home Hub",
+    "description": "All-in-one smart home hub compatible with most smart devices. Control your devices with voice commands and manage home automation from your smartphone.",
+    "price": 149.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [2, 6, 18, 40]
+  },
+  {
+    "id": 9,
+    "name": "Wireless Charger",
+    "description": "Fast wireless charger compatible with most smartphones and wireless earbuds. Compact design for desk or bedside use. Charges through most phone cases.",
+    "price": 29.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 5, 23, 45]
+  },
+  {
+    "id": 10,
+    "name": "Electric Scooter",
+    "description": "Eco-friendly electric scooter with a range of 25 miles on a single charge. Perfect for urban commuting or weekend rides. Stylish design with safety features.",
+    "price": 399.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [4, 22, 31, 43]
+  },
+  {
+    "id": 11,
+    "name": "Smart Thermostat",
+    "description": "Save energy and control your home's temperature remotely with this smart thermostat. Works with voice assistants and offers programmable temperature schedules.",
+    "price": 179.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 13, 18, 40]
+  },
+  {
+    "id": 12,
+    "name": "VR Headset",
+    "description": "Immersive virtual reality headset with wide field of view and precise tracking. Experience VR gaming, simulations, and media like never before.",
+    "price": 299.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [2, 4, 16, 22]
+  },
+  {
+    "id": 13,
+    "name": "Robot Vacuum",
+    "description": "Automatic robot vacuum with intelligent navigation and multi-surface cleaning. Schedule cleanings and control it remotely through your smartphone.",
+    "price": 229.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 11, 18, 43]
+  },
+  {
+    "id": 14,
+    "name": "Streaming Media Player",
+    "description": "Stream your favorite shows, movies, and music with this compact media player. Supports 4K HDR and comes with built-in apps like Netflix, Hulu, and more.",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [3, 22, 31, 40]
+  },
+  {
+    "id": 15,
+    "name": "Smart Doorbell",
+    "description": "See who's at your door with this HD video doorbell. Features two-way audio, motion detection, and mobile alerts. Compatible with smart home systems.",
+    "price": 99.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 13, 19, 40]
+  },
+  {
+    "id": 16,
+    "name": "Action Camera",
+    "description": "Compact and waterproof action camera for capturing high-quality videos and photos. Perfect for extreme sports, travel, and outdoor adventures.",
+    "price": 199.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [4, 12, 24, 30]
+  },
+  {
+    "id": 17,
+    "name": "E-reader",
+    "description": "Lightweight e-reader with a high-resolution, glare-free display. Store thousands of books and read in direct sunlight or low-light environments.",
+    "price": 129.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [2, 6, 18, 25]
+  },
+  {
+    "id": 18,
+    "name": "Smart Lock",
+    "description": "Upgrade your home security with this keyless smart lock. Control access from anywhere and give temporary keys to guests or family members.",
+    "price": 159.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 11, 13, 40]
+  },
+  {
+    "id": 19,
+    "name": "Home Security Camera",
+    "description": "Wireless security camera with motion detection, night vision, and cloud storage. View live video feeds and receive alerts on your smartphone.",
+    "price": 89.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 13, 15, 40]
+  },
+  {
+    "id": 20,
+    "name": "Electric Kettle",
+    "description": "Fast-boiling electric kettle with temperature control and auto shut-off. Perfect for making tea, coffee, or instant meals in minutes.",
+    "price": 39.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [27, 28, 30, 41]
+  },
+  {
+    "id": 21,
+    "name": "Smart Light Bulbs",
+    "description": "Energy-efficient smart light bulbs that can be controlled via app or voice assistants. Customize brightness and color to suit any mood or setting.",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 31, 36, 40]
+  },
+  {
+    "id": 22,
+    "name": "Portable Projector",
+    "description": "Compact portable projector with full HD resolution and wireless connectivity. Perfect for home theater setups, outdoor movies, or presentations.",
+    "price": 349.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [3, 10, 14, 16]
+  },
+  {
+    "id": 23,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable sensitivity and long battery life. Great for both gaming and office work, offering precise control and comfort.",
+    "price": 29.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 5, 24, 30]
+  },
+  {
+    "id": 24,
+    "name": "Mechanical Keyboard",
+    "description": "High-performance mechanical keyboard with customizable RGB lighting and tactile feedback. Designed for gaming and typing enthusiasts.",
+    "price": 129.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [4, 7, 16, 23]
+  },
+  {
+    "id": 25,
+    "name": "External Hard Drive",
+    "description": "Portable external hard drive with 2TB storage capacity. Back up your files, photos, and videos securely and access them from any device.",
+    "price": 89.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [4, 17, 30, 43]
+  },
+  {
+    "id": 26,
+    "name": "Digital Photo Frame",
+    "description": "Display your favorite memories with this digital photo frame. Features high-resolution display, Wi-Fi connectivity, and customizable slideshows.",
+    "price": 99.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [11, 17, 19, 27]
+  },
+  {
+    "id": 27,
+    "name": "Portable Blender",
+    "description": "Compact portable blender perfect for making smoothies and shakes on the go. USB rechargeable and easy to clean. Ideal for healthy lifestyles.",
+    "price": 34.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [20, 26, 28, 30]
+  },
+  {
+    "id": 28,
+    "name": "Instant Pot",
+    "description": "Multi-functional electric pressure cooker that replaces several kitchen appliances. Prepare meals faster with one-touch controls for various dishes.",
+    "price": 99.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [20, 27, 30, 41]
+  },
+  {
+    "id": 29,
+    "name": "Smart Coffee Maker",
+    "description": "Brew your coffee with a smart coffee maker. Set schedules, control brew strength, and get notifications when your coffee is ready.",
+    "price": 79.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [5, 20, 27, 30]
+  },
+  {
+    "id": 30,
+    "name": "Digital Air Fryer",
+    "description": "Healthy cooking made easy with this digital air fryer. Fry, bake, and grill your favorite foods with little to no oil. Features adjustable temperature controls.",
+    "price": 89.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [20, 27, 28, 29]
+  },
+  {
+    "id": 31,
+    "name": "Wi-Fi Range Extender",
+    "description": "Boost your Wi-Fi signal and eliminate dead zones in your home with this range extender. Easy to set up and compatible with all routers.",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 10, 14, 21]
+  },
+  {
+    "id": 32,
+    "name": "Electric Shaver",
+    "description": "Rechargeable electric shaver with multiple heads for a close and comfortable shave. Waterproof design, perfect for wet or dry use.",
+    "price": 69.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [4, 6, 37, 41]
+  },
+  {
+    "id": 33,
+    "name": "Portable Power Bank",
+    "description": "High-capacity portable power bank with fast charging capability. Keep your devices charged while on the go, with multiple USB ports.",
+    "price": 39.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [5, 7, 23, 31]
+  },
+  {
+    "id": 34,
+    "name": "Tablet Stand",
+    "description": "Adjustable tablet stand for comfortable viewing and typing angles. Compatible with most tablets and e-readers. Lightweight and portable.",
+    "price": 24.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 17, 21, 36]
+  },
+  {
+    "id": 35,
+    "name": "Portable Air Purifier",
+    "description": "Compact air purifier with HEPA filter for cleaning the air in small spaces. Ideal for bedrooms, offices, or travel. Reduces allergens and odors.",
+    "price": 79.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 11, 13, 36]
+  },
+  {
+    "id": 36,
+    "name": "Smart Scale",
+    "description": "Track your weight, body fat, and other health metrics with this smart scale. Syncs with fitness apps and offers detailed insights on your progress.",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [6, 21, 34, 35]
+  },
+  {
+    "id": 37,
+    "name": "Waterproof Phone Case",
+    "description": "Protect your phone from water, dust, and sand with this waterproof phone case. Perfect for swimming, snorkeling, or beach trips.",
+    "price": 19.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 6, 7, 33]
+  },
+  {
+    "id": 38,
+    "name": "Smart Mirror",
+    "description": "High-tech smart mirror with built-in lighting and interactive features. Connect to your smart home system for voice commands and notifications.",
+    "price": 299.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [3, 11, 13, 40]
+  },
+  {
+    "id": 39,
+    "name": "Noise-Cancelling Sleep Mask",
+    "description": "Comfortable sleep mask with built-in noise-cancelling headphones. Enjoy restful sleep by blocking out light and unwanted sounds.",
+    "price": 59.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [6, 7, 18, 35]
+  },
+  {
+    "id": 40,
+    "name": "Smart Ceiling Fan",
+    "description": "Energy-efficient ceiling fan with smart controls. Set schedules, adjust speed, and control lighting from your smartphone or voice assistant.",
+    "price": 249.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [8, 11, 13, 15]
+  },
+  {
+    "id": 41,
+    "name": "Digital Meat Thermometer",
+    "description": "Ensure perfect cooking with this instant-read digital meat thermometer. Ideal for grilling, baking, and roasting, offering accurate temperature readings.",
+    "price": 19.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [20, 28, 32, 35]
+  },
+  {
+    "id": 42,
+    "name": "Ergonomic Office Chair",
+    "description": "Comfortable and adjustable ergonomic office chair designed for long hours of sitting. Offers lumbar support and breathable mesh back.",
+    "price": 199.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [4, 24, 31, 43]
+  },
+  {
+    "id": 43,
+    "name": "Portable Air Conditioner",
+    "description": "Stay cool with this portable air conditioner. Features multiple fan speeds, dehumidifying mode, and easy installation in any room.",
+    "price": 349.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [10, 13, 25, 42]
+  },
+  {
+    "id": 44,
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with multiple brushing modes and a smart timer. Promotes better oral hygiene with efficient cleaning.",
+    "price": 69.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [32, 33, 37, 41]
+  },
+  {
+    "id": 45,
+    "name": "Wireless Charging Pad",
+    "description": "Slim wireless charging pad compatible with most smartphones and earbuds. Features fast charging capability and sleek design for minimal desk clutter.",
+    "price": 29.99,
+    "image": "https://via.placeholder.com/500",
+    "related": [1, 9, 23, 33]
+  }
+]
